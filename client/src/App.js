@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
-import './App.css';
+import { createChart } from 'lightweight-charts';
+import './App.scss';
 
 const App = () => {
   const chart = createChart(document.body, { width: 1280, height: 720 });

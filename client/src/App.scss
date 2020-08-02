@@ -1,0 +1,61 @@
+// Body
+$body-bg: #0a0a14;
+$body-color: #808080;
+
+// Border
+$border-radius: 0px;
+$border-radius-lg: 0px;
+$border-radius-sm: 0px;
+$border-color: rgba(#000000, 0.1);
+
+// Breadcrumb
+$breadcrumb-bg: $body-bg;
+
+// Card
+$card-bg: $body-bg;
+
+// Dropdown
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-color: darken($body-color, 10%);
+$dropdown-link-hover-bg: rgba(0, 0, 0, 0.1);
+$dropdown-divider-bg: rgba(255, 255, 255, 0.1) !default;
+$dropdown-bg: $card-bg;
+
+// Input
+$input-bg: $body-bg;
+$input-border-color: #22272d;
+$input-focus-border-color: lighten(#22272d, 5%);
+$input-focus-color: #fff;
+$input-group-addon-bg: darken($input-bg, 5%);
+
+// List
+$list-group-bg: $card-bg;
+
+// Pagination
+$pagination-bg: inherit;
+$pagination-border-color: inherit;
+$pagination-hover-bg: rgba(0, 0, 0, 0.1);
+$pagination-hover-border-color: rgba(0, 0, 0, 0.1);
+
+// Popover
+$popover-bg: $card-bg;
+
+// Progress
+$progress-border-radius: 0px;
+
+// Table
+$table-border-color: rgba(255, 255, 255, 0.1);
+
+// Theme
+$theme-colors: (
+  'primary': #00dec9,
+  'secondary': #009b8d,
+  'danger': #ff3636,
+  'success': #19ce10,
+  'info': #2ca8ff,
+  'warning': #ffb237,
+  'dark': #1a1d21,
+  'light': #9b9c9e,
+);
+
+@import '~bootstrap/scss/bootstrap';
