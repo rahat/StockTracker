@@ -347,6 +347,9 @@ function Chart() {
                 vertLine: {
                     labelVisible: false,
                 },
+                horzLine: {
+                    visible: false,
+                }
             },
         });
 
