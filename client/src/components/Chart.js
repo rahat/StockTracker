@@ -321,7 +321,7 @@ function Chart() {
         ]);
 
         chart.applyOptions({
-            rightPriceScale: {
+            priceScale: {
                 scaleMargins: {
                     top: 0.2,
                     bottom: 0.2,
@@ -345,6 +345,10 @@ function Chart() {
             },
             crosshair: {
                 vertLine: {
+                    color: 'rgba(0, 150, 136, 1)',
+                    width: 1,
+                    style: 0,
+                    visible: true,
                     labelVisible: false,
                 },
                 horzLine: {
