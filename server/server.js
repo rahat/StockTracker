@@ -3,7 +3,10 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 const db = require('./db');
 const request = require('request');
+var alertsRouter = require('./routes/alertRoutes');
+var alertModel = require('./models/alertModel');
 require('dotenv').config();
+var twilio = require('./twilio');
 
 const app = express();
 const port = 5000;
@@ -17,6 +20,8 @@ db.on('error', console.error.bind(console, 'MongoDB Error:'));
 app.get('/', (req, res) => {
     res.send('StockTracker')
 })
+
+app.use('/alerts', alertsRouter);
 
 app.get('/quotes', (req, res) => {
     const symbol = req.query["symbol"];
