@@ -3,6 +3,9 @@
 An app that notifies you when a stock you follow reaches a certain price. 
 Notifications can be sent via phone call, text message, and/or email. StockTracker makes use of the [Alpaca Trading](https://alpaca.markets/), [Twilio](https://www.twilio.com/), and [SendGrid](https://sendgrid.com/) API's.
 
+## Preview
+![StockTracker UI](https://user-images.githubusercontent.com/4211136/100399930-988da700-304c-11eb-8f90-fe1a433c17b4.png)
+
 ## Technologies
 
 - MongoDB
